@@ -12,9 +12,16 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 1. Get the Jekyll pre-requisites if you haven't already: http://jekyllrb.com/docs/installation/
 1. Then the Jekyll rubygem: `gem install jekyll bundler`
 
-#### Devving
+#### Running a dev server
+
+This will allow you to see what your changes will look like before pushing them live:
 
 1. `bundle exec jekyll serve`
+
+#### Adding meats
+
+1. Put the meats in `img/meats`
+1. Bon appétit!
 
 ### Markdown
 
