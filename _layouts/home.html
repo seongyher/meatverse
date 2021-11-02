@@ -24,13 +24,13 @@
 </head>
 <body>
 
-<a href="https://www.discord.gg/8MVFRMa"><img style="width:100vw" src="/img/meatverse-intro.png" alt="meat"></a>
-<div class="portfolio-container">
-  {% assign meats = site.static_files | where: "meat", true %}
-  {% for meat in meats %}
-    <img class="animated intensifies meat-images" src="{{ meat.path }}" loading="lazy" alt="meat">
-  {% endfor %}
-</div>
+  <a href="https://www.discord.gg/8MVFRMa"><img style="width:100vw" src="/img/meatverse-intro.png" alt="meat"></a>
+  <div class="meat-container">
+    {% assign meats = site.static_files | where: "meat", true %}
+    {% for meat in meats %}
+      <img class="animated intensifies meat-images" src="{{ meat.path }}" loading="lazy" alt="meat">
+    {% endfor %}
+  </div>
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>

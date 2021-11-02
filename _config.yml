@@ -25,6 +25,6 @@ markdown: kramdown
 theme: minima
 defaults:
   - scope:
-      path: "img"
+      path: "img/meats"
     values:
       meat: true

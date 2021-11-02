@@ -9,33 +9,12 @@
 
 .meat-container {
   padding: 3% 5%;
-}
-.meat-image {
-  margin-left: 1.6rem;
-  border-radius: 3%;
-}
-.meat-row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
 }
 .meat-images {
   max-width: 15vw;
   max-height: 15vw;
-  flex: 50%;
-}
-
-/* zuck Image Columns */
-/* ---------------------------------- */
-.meat-column {
-  flex: 18%;
-  max-width: 18%;
-  padding: 0 4px;
-}
-.meat-column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
 }
 
 /* ==========================================================================
