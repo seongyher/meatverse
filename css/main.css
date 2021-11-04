@@ -7,6 +7,10 @@
  * Kroc Camen, and the H5BP dev community and team.
  */
 
+.meat-text {
+  text-align: justify;
+  text-justify: inter-word;
+}
 
 .meat-container {
   padding: 3% 5%;
