@@ -7,6 +7,12 @@
  * Kroc Camen, and the H5BP dev community and team.
  */
 
+body {
+  background-image: url("/img/gourmet/meatverse-bg-tile.gif");
+  background-repeat: repeat;
+  -webkit-text-stroke: 0.5px darkred;
+}
+
 .meat-container {
   padding: 3% 5%;
   display: grid;
