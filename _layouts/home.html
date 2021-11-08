@@ -24,36 +24,37 @@
 </head>
 <body>
 
-  <h1>
-    {{ page.title }}
-  </h1>
-
-  <div class="grid-5">
-    <img class="animated intensifies" src="/img/meats/xenoberg (9).png" loading="lazy" alt="meat">
-    <img class="animated intensifies" src="/img/meats/xenoberg (10).png" loading="lazy" alt="meat">
-    <img class="animated intensifies" src="/img/meats/xenoberg (11).png" loading="lazy" alt="meat">
-    <img class="animated intensifies" src="/img/meats/xenoberg (12).png" loading="lazy" alt="meat">
-    <img class="animated intensifies" src="/img/meats/xenoberg (20).png" loading="lazy" alt="meat">
-    <img class="animated intensifies" src="/img/meats/xenoberg (30).png" loading="lazy" alt="meat">
-  </div>
-
   {% assign meats = site.static_files | where: "meat", true %}
+  {% assign allMeatsIndex = meats | size | minus: 1 %}
+  {% assign halfMeatsIndex = meats | size | divided_by: 2 %}
 
-  <div class="grid-5">
-    {% for meat in meats %}
-      <img class="animated intensifies" src="{{ meat.path }}" loading="lazy" alt="meat">
-    {% endfor %}
+  {% assign firstHalfMeats = meats | slice: 0, halfMeatsIndex %}
+  {% assign secondHalfMeats = meats | slice: halfMeatsIndex, allMeatsIndex %}
+
+  <div class="meats">
+    <div class="meat-images">
+      {% for meat in firstHalfMeats %}
+        <img class="animated intensifies" src="{{ meat.path }}" loading="lazy" alt="meat">
+      {% endfor %}
+    </div>
+    <div class="meat-content">
+      <div class="header-image">
+        <img class="animated intensifies" src="/img/meats/xenoberg (30).png" loading="lazy" alt="meat">
+      </div>
+      <div class="meat-text">
+        <h1>
+          {{ page.title }}
+        </h1>
+        {{ content }}
+      </div>
+    </div>
+    <div class="meat-images">
+      {% for meat in secondHalfMeats %}
+        <img class="animated intensifies" src="{{ meat.path }}" loading="lazy" alt="meat">
+      {% endfor %}
+    </div>
   </div>
 
-  {% assign paragraphs = content | newline_to_br | split: '<br />' | uniq %}
-
-  <div class="meat-text">
-    {% for paragraph in paragraphs %}
-      <p>
-        {{ paragraph }}
-      </p>
-    {% endfor %}
-  </div>
 
   <div class="sticky-department" style="background-color: black;">
     <h3>meatverse.dev</h3>
