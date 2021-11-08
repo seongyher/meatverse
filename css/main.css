@@ -23,6 +23,14 @@ body {
   max-height: 15vw;
 }
 
+.meat-text {
+  background: rgba(255, 255,255, 0.3);
+  padding: 1em;
+  max-width: 35em;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
