@@ -11,24 +11,45 @@ body {
   background-image: url("/img/gourmet/meatverse-bg-tile.gif");
   background-repeat: repeat;
   -webkit-text-stroke: 0.5px darkred;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 3em;
 }
 
-.meat-container {
-  padding: 3% 5%;
+h1 {
+  font-size: 80px;
+  overflow-wrap: break-word;
+}
+
+img {
+  max-width: 100%;
+}
+
+.grid-5 {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
 }
-.meat-images {
-  max-width: 15vw;
-  max-height: 15vw;
-}
+
 
 .meat-text {
   background: rgba(255, 255,255, 0.3);
+  backdrop-filter: invert(1);
   padding: 1em;
   max-width: 35em;
   margin: 0 auto;
   font-size: 18px;
+}
+
+.sticky-department {
+  position: fixed;
+  bottom: 5px;
+  left: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 60px;
+  }
 }
 
 /* ==========================================================================
