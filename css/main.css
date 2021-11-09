@@ -7,6 +7,11 @@
  * Kroc Camen, and the H5BP dev community and team.
  */
 
+/* Mouse cursor */
+* {
+  cursor: url("/img/gourmet/mouse_ol.cur"), auto;
+}
+
 body {
   background-image: url("/img/gourmet/meatverse-bg-tile.gif");
   background-repeat: repeat;
@@ -41,6 +46,10 @@ img {
 
 .meat-images img {
   max-height: 300px;
+}
+
+.meat-images {
+  z-index: -2;
 }
 
 .meat-text {
