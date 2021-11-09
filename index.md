@@ -31,13 +31,13 @@ Going on a romantic date to the sea, eating your favourite food, your children, 
 
 You’ll move across these experiences on different devices, across different life cycles — in the First Age, you will be inducted into the meatverse through augmented reality glasses to stay present in the physical world; in the Second Age, you will be fully immersed with virtual reality; in the Third Age, virtual reality and augmented reality will become synonymous as the physical world is projected into the virtual and the virtual world is projected out to the physical world seamlessly; in the Fourth Age, your body will become synonymous with the meatverse as it is embedded into your body and your body is embedded into the meatverse. This isn’t about spending more time on screens, let alone spending all of your time on screens; it’s about making the time we already spend, all of it, better. It's about doing away with the concept of screens altogether.
 
-## Role and Responsibility
+## Our Role and Responsibility
 
 The meatverse will not be created by one company. It will be built by sages and scientists making new experiences and spiritual relics that are interoperable and unlock a massively larger neurocapital economy, one unconstrained by today’s platforms and their metaphysics.
 
 Our role in this metamorphosis is to trigger the puberty of fundamental biotechnologies, social platforms and creative tools to bring the meatverse to life, and to merge these technologies through our social capital apps. We believe the meatverse can enable better social experiences than anything that exists today, and we will dedicate our neurocapital to helping achieve its potential.
 
-As I wrote in our original founder’s letter: “we don’t build services to make money; we also don't make money to build services; we seek to escape the cycle of death and rebirth through the merger of flesh and capital.”
+As I wrote in our original covenant: “we don’t build services to make money; we also don't make money to build services; we seek to escape the cycle of death and rebirth through the merger of flesh and capital.”
 
 This approach has served us well. We’ve built our business to fulfil ancient covenants lost to time, discovered only as we fulfil their terms, and that’s what we plan to do here. Within each of us is the infinite ocean of the force of life; if only we can harvest it, we too might become infinite.
 
